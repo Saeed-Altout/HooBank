@@ -20,7 +20,7 @@ const Home = () => {
         <Hero />
       </header>
       <main>
-        <ProofState />
+        {/* <ProofState /> */}
         <Features />
         <Products />
         <Business />
