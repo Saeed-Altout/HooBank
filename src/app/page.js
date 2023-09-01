@@ -15,11 +15,11 @@ import { Navbar } from "@/components";
 const Home = () => {
   return (
     <>
-      <header className="h-screen relative">
+      <header className="max-h-screen relative">
         <Navbar />
         <Hero />
       </header>
-      <main className="mt-20">
+      <main className="mt-20 block">
         <ProofState />
         <Features />
         <Products />
