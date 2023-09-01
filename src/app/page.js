@@ -15,7 +15,7 @@ import { Navbar } from "@/components";
 const Home = () => {
   return (
     <>
-      <header className="h-screen flex flex-col items-start justify-center gap-20 relative">
+      <header className="h-screen flex flex-col items-start justify-center relative">
         <Navbar />
         <Hero />
       </header>

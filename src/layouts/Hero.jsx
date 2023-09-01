@@ -6,7 +6,7 @@ import { FiArrowUp } from "react-icons/fi";
 const Hero = () => {
   const { scrolled } = useStateContext();
   return (
-    <section className="flex items-center justify-center w-full h-full z-10">
+    <section className="flex items-center justify-center w-full h-full z-10 my-28">
       <div className="container flex flex-col items-center justify-between gap-10 px-6 py-6 mx-auto md:flex-row sm:px-16">
         <div className="max-w-3xl">
           <ProofDiscount />
