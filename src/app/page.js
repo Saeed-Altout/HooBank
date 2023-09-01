@@ -19,8 +19,8 @@ const Home = () => {
         <Navbar />
         <Hero />
       </header>
-      <main>
-        {/* <ProofState /> */}
+      <main className="mt-20">
+        <ProofState />
         <Features />
         <Products />
         <Business />
