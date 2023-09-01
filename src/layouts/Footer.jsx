@@ -53,7 +53,7 @@ const Footer = () => {
                 <Link
                   href={icon.link}
                   key={icon.id}
-                  className="text-white text-3xl hover:text-secondary"
+                  className="text-white text-2xl hover:text-secondary"
                 >
                   {icon.icon}
                 </Link>
