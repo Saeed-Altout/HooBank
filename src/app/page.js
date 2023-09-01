@@ -15,7 +15,7 @@ import { Navbar } from "@/components";
 const Home = () => {
   return (
     <>
-      <header className="h-screen">
+      <header className="h-screen relative">
         <Navbar />
         <Hero />
       </header>

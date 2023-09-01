@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Logo, Section, Wrapper } from "@/components";
+import { Logo, Wrapper } from "@/components";
 import { footerLinks, socialMedia } from "@/constants";
 import { useStateContext } from "@/contexts/providerState";
+import { icons } from "react-icons";
 const Footer = () => {
   const { nowYear } = useStateContext();
   return (
-    <Section>
+    <section className="flex items-center justify-center w-full h-full pt-12">
       <Wrapper>
         <div className="flex flex-col w-full gap-10">
           <div className="max-w-xl">
@@ -49,19 +50,19 @@ const Footer = () => {
 
             <ul className="flex items-center justify-center gap-10 py-10">
               {socialMedia.map((icon) => (
-                <Link href={icon.link} key={icon.id}>
-                  <Image
-                    src={icon.icon}
-                    alt={icon.id}
-                    className="object-contain w-8"
-                  />
+                <Link
+                  href={icon.link}
+                  key={icon.id}
+                  className="text-white text-3xl hover:text-secondary"
+                >
+                  {icon.icon}
                 </Link>
               ))}
             </ul>
           </div>
         </div>
       </Wrapper>
-    </Section>
+    </section>
   );
 };
 

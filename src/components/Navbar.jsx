@@ -5,7 +5,7 @@ import { useStateContext } from "@/contexts/providerState";
 const Navbar = () => {
   const { activeMenu } = useStateContext();
   return (
-    <nav>
+    <nav className="z-[1000] min-h-28 py-3">
       <div className="container flex items-center justify-between px-6 py-6 mx-auto sm:px-16">
         <Logo styleLogo="w-[120px] h-auto" />
         <Toggle />

@@ -22,6 +22,7 @@ export const ContextProvider = ({ children }) => {
 
   const handelLinkActive = (e) => {
     setLinkActive((prev) => (prev = e.target.text.toLowerCase()));
+    setActiveMenu(false);
   };
   return (
     <StateContext.Provider

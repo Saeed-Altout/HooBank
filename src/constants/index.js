@@ -2,10 +2,6 @@ import {
   people01,
   people02,
   people03,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
   airbnb,
   binance,
   coinbase,
@@ -14,6 +10,8 @@ import {
   shield,
   star,
 } from "@/assets/index";
+
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const navLinks = [
   {
@@ -172,22 +170,22 @@ export const footerLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
+    icon: <FaInstagram />,
     link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
+    icon: <FaFacebook />,
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
-    icon: twitter,
+    icon: <FaTwitter />,
     link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
+    icon: <FaLinkedin />,
     link: "https://www.linkedin.com/",
   },
 ];
