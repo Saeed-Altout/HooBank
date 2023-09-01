@@ -1,7 +1,7 @@
 const Section = ({ children, id }) => (
   <section
     id={id}
-    className="flex items-center justify-center w-full h-full py-12"
+    className="flex items-start justify-center w-full h-full my-12"
   >
     {children}
   </section>
